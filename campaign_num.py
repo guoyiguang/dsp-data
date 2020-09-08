@@ -1,6 +1,7 @@
 from elasticsearch import Elasticsearch
 import datetime
-es = Elasticsearch(["52.81.101.182:9200"],http_auth=('elastic','GefHbj35mILmd8HpMJaY'))
+# 链接es
+es = Elasticsearch(["X.X.X.X:9200"],http_auth=('elastic','GefHbmd8HpMJaY'))
 import pymysql
 
 body={
@@ -37,10 +38,10 @@ body={
 }
 
 mysql_config = {
-        'host' : "primedsp.ckaigoijxdbf.rds.cn-north-1.amazonaws.com.cn",
-        'user' : "beijingdsp",
-        'password' : "beijingdsp123",
-        'database' : "dsp",
+        'host' : "",
+        'user' : "",
+        'password' : "",
+        'database' : "",
         'port' : 3306
         }
 
